@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		034D5AFCF7F7BE02F6914AAD /* Pods_HarmonyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A46A05FDDC61B32867FA68B /* Pods_HarmonyTests.framework */; };
+		43C7D9B8E44CAB741FF01C3E /* Pods_HarmonyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB73B30E96924CFDC31054F3 /* Pods_HarmonyUITests.framework */; };
+		9237A1EAD0A86B679E0742B0 /* Chord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9237AB986CA8DC387B74CFAE /* Chord.swift */; };
+		9237A260BCEC6F6E85049435 /* ChordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9237A2356E817693601939CB /* ChordTests.swift */; };
+		9237A3DDEE0E2F72B3A1C1C1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9237AAC6FBA33F6242824018 /* Info.plist */; };
+		9237A5C02B92B8E0969052AE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9237A4FD6CED3A6842632BA3 /* Info.plist */; };
+		9237A7A1255501833D9CCB51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9237A140873F6B65D0D67DF4 /* AppDelegate.swift */; };
+		9237A7B66F98F0FD4EE4D7BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9237A168423C13CEDC2760CD /* LaunchScreen.storyboard */; };
+		9237A83387791F11C8DCD23D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9237AB813E9815462297A2D8 /* ViewController.swift */; };
+		9237A88FC299797A47707739 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9237A526C2BE6EDA057A8BDB /* Assets.xcassets */; };
+		9237A9DF1CFCB4B774F3A1D2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9237A19E4921765D67F66F6D /* Info.plist */; };
+		9237AA059ED1FB6EFF62445E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9237AA54390AC9A8B4BB9B4F /* Main.storyboard */; };
+		9237ACE6BC4696CAF9A1D99B /* FretboardTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9237AE99A6DD76F9F1071E4A /* FretboardTest.swift */; };
+		9237AF03D0B400A2DEA31228 /* HarmonyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9237AA8C8E65CEB564BF55AD /* HarmonyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9237A4182FEC16F195015D5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9237AF105378231EFB5AC3B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9237AF8D559D281049535B3D;
+			remoteInfo = Harmony;
+		};
+		9237ABA7A2E630CAC09A0F50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9237AF105378231EFB5AC3B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9237AF8D559D281049535B3D;
+			remoteInfo = Harmony;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E3D5120A30F6BEBE2D3C26B /* Pods-HarmonyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HarmonyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HarmonyTests/Pods-HarmonyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		56FC1BEDE54F77C99A841A28 /* Pods-HarmonyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HarmonyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HarmonyUITests/Pods-HarmonyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		595A8C3D5682810CCB3C04B0 /* Pods-HarmonyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HarmonyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HarmonyTests/Pods-HarmonyTests.release.xcconfig"; sourceTree = "<group>"; };
+		9237A0D5E0B59162C667855F /* HarmonyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HarmonyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9237A140873F6B65D0D67DF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9237A19E4921765D67F66F6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		9237A1F14B83B793F0AA7568 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9237A2356E817693601939CB /* ChordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordTests.swift; sourceTree = "<group>"; };
+		9237A4FD6CED3A6842632BA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		9237A526C2BE6EDA057A8BDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9237A83F562B173E52405E34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9237AA8C8E65CEB564BF55AD /* HarmonyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarmonyUITests.swift; sourceTree = "<group>"; };
+		9237AAC6FBA33F6242824018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		9237AB813E9815462297A2D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9237AB986CA8DC387B74CFAE /* Chord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chord.swift; sourceTree = "<group>"; };
+		9237AC4D04CFE2B850FF6AC4 /* Harmony.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Harmony.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9237AE99A6DD76F9F1071E4A /* FretboardTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FretboardTest.swift; sourceTree = "<group>"; };
+		9237AEAAD2D205F4AA2C440B /* HarmonyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HarmonyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A46A05FDDC61B32867FA68B /* Pods_HarmonyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HarmonyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB73B30E96924CFDC31054F3 /* Pods_HarmonyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HarmonyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE998CE0255CF709FA80D1B9 /* Pods-HarmonyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HarmonyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HarmonyUITests/Pods-HarmonyUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9237A07ADD4AE1AA0300E172 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C7D9B8E44CAB741FF01C3E /* Pods_HarmonyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9237A1BABC119E4A79D6FDCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9237A9260E0048F130CFF57B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034D5AFCF7F7BE02F6914AAD /* Pods_HarmonyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19E7D19342F5C6E56AAEEC27 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E3D5120A30F6BEBE2D3C26B /* Pods-HarmonyTests.debug.xcconfig */,
+				595A8C3D5682810CCB3C04B0 /* Pods-HarmonyTests.release.xcconfig */,
+				56FC1BEDE54F77C99A841A28 /* Pods-HarmonyUITests.debug.xcconfig */,
+				DE998CE0255CF709FA80D1B9 /* Pods-HarmonyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9237A0D6263E0177FD7C8C5A /* Harmony */ = {
+			isa = PBXGroup;
+			children = (
+				9237A4FD6CED3A6842632BA3 /* Info.plist */,
+				9237A526C2BE6EDA057A8BDB /* Assets.xcassets */,
+				9237A168423C13CEDC2760CD /* LaunchScreen.storyboard */,
+				9237A140873F6B65D0D67DF4 /* AppDelegate.swift */,
+				9237AA54390AC9A8B4BB9B4F /* Main.storyboard */,
+				9237AB813E9815462297A2D8 /* ViewController.swift */,
+				9237A2A8876ED71983593FAF /* Model */,
+			);
+			path = Harmony;
+			sourceTree = "<group>";
+		};
+		9237A2A8876ED71983593FAF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9237AB986CA8DC387B74CFAE /* Chord.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9237A44A95560009E313D8D4 = {
+			isa = PBXGroup;
+			children = (
+				9237A5EA39D386B2716ACE99 /* Products */,
+				9237A0D6263E0177FD7C8C5A /* Harmony */,
+				9237A947DD8E3C3B86986F7C /* HarmonyTests */,
+				9237AE68093F01D06C5B3085 /* HarmonyUITests */,
+				19E7D19342F5C6E56AAEEC27 /* Pods */,
+				A8DD0439ED175EA2ADEEFFEF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9237A5EA39D386B2716ACE99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9237AC4D04CFE2B850FF6AC4 /* Harmony.app */,
+				9237AEAAD2D205F4AA2C440B /* HarmonyTests.xctest */,
+				9237A0D5E0B59162C667855F /* HarmonyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9237A947DD8E3C3B86986F7C /* HarmonyTests */ = {
+			isa = PBXGroup;
+			children = (
+				9237A19E4921765D67F66F6D /* Info.plist */,
+				9237A2356E817693601939CB /* ChordTests.swift */,
+				9237AE99A6DD76F9F1071E4A /* FretboardTest.swift */,
+			);
+			path = HarmonyTests;
+			sourceTree = "<group>";
+		};
+		9237AE68093F01D06C5B3085 /* HarmonyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9237AAC6FBA33F6242824018 /* Info.plist */,
+				9237AA8C8E65CEB564BF55AD /* HarmonyUITests.swift */,
+			);
+			path = HarmonyUITests;
+			sourceTree = "<group>";
+		};
+		A8DD0439ED175EA2ADEEFFEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A46A05FDDC61B32867FA68B /* Pods_HarmonyTests.framework */,
+				AB73B30E96924CFDC31054F3 /* Pods_HarmonyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9237A0BAC4F13618C7181D09 /* HarmonyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9237A150C801094191F3EFDE /* Build configuration list for PBXNativeTarget "HarmonyUITests" */;
+			buildPhases = (
+				3368931B00393C10B1EE0D19 /* Check Pods Manifest.lock */,
+				9237AFEDFB22FD4FE4E56061 /* Sources */,
+				9237A07ADD4AE1AA0300E172 /* Frameworks */,
+				9237A36C4980FBB4B229CD71 /* Resources */,
+				5C34465355720CDB21F9F5DC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9237A744D27DAD0881FCF429 /* PBXTargetDependency */,
+			);
+			name = HarmonyUITests;
+			productName = HarmonyUITests;
+			productReference = 9237A0D5E0B59162C667855F /* HarmonyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		9237A50BB12D640B88804A5E /* HarmonyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9237AE65804FF52CD82894BF /* Build configuration list for PBXNativeTarget "HarmonyTests" */;
+			buildPhases = (
+				B1DB4135B3D9803E18151E57 /* Check Pods Manifest.lock */,
+				9237ACD991C1498AE731D94C /* Sources */,
+				9237A9260E0048F130CFF57B /* Frameworks */,
+				9237A269C8EA8097DF9F5683 /* Resources */,
+				F2A53C95960DAFA6140E1443 /* Embed Pods Frameworks */,
+				583234A248A60AA48CD760EA /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9237A6038D8CA95E7C52443F /* PBXTargetDependency */,
+			);
+			name = HarmonyTests;
+			productName = HarmonyTests;
+			productReference = 9237AEAAD2D205F4AA2C440B /* HarmonyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9237AF8D559D281049535B3D /* Harmony */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9237ABD6A28ADAC550F6251E /* Build configuration list for PBXNativeTarget "Harmony" */;
+			buildPhases = (
+				9237AAA5CBF7F863725322A4 /* Sources */,
+				9237A1BABC119E4A79D6FDCB /* Frameworks */,
+				9237AC429D4CC6EF1CA7E181 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Harmony;
+			productName = Harmony;
+			productReference = 9237AC4D04CFE2B850FF6AC4 /* Harmony.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9237AF105378231EFB5AC3B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = rsadow;
+			};
+			buildConfigurationList = 9237A5DD80BD82D3F4BAED1F /* Build configuration list for PBXProject "Harmony" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9237A44A95560009E313D8D4;
+			productRefGroup = 9237A5EA39D386B2716ACE99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9237AF8D559D281049535B3D /* Harmony */,
+				9237A50BB12D640B88804A5E /* HarmonyTests */,
+				9237A0BAC4F13618C7181D09 /* HarmonyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9237A269C8EA8097DF9F5683 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9237A9DF1CFCB4B774F3A1D2 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9237A36C4980FBB4B229CD71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9237A3DDEE0E2F72B3A1C1C1 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9237AC429D4CC6EF1CA7E181 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9237A5C02B92B8E0969052AE /* Info.plist in Resources */,
+				9237A88FC299797A47707739 /* Assets.xcassets in Resources */,
+				9237A7B66F98F0FD4EE4D7BA /* LaunchScreen.storyboard in Resources */,
+				9237AA059ED1FB6EFF62445E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3368931B00393C10B1EE0D19 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		583234A248A60AA48CD760EA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HarmonyTests/Pods-HarmonyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C34465355720CDB21F9F5DC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HarmonyUITests/Pods-HarmonyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1DB4135B3D9803E18151E57 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F2A53C95960DAFA6140E1443 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HarmonyTests/Pods-HarmonyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9237AAA5CBF7F863725322A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9237A7A1255501833D9CCB51 /* AppDelegate.swift in Sources */,
+				9237A83387791F11C8DCD23D /* ViewController.swift in Sources */,
+				9237A1EAD0A86B679E0742B0 /* Chord.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9237ACD991C1498AE731D94C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9237A260BCEC6F6E85049435 /* ChordTests.swift in Sources */,
+				9237ACE6BC4696CAF9A1D99B /* FretboardTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9237AFEDFB22FD4FE4E56061 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9237AF03D0B400A2DEA31228 /* HarmonyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9237A6038D8CA95E7C52443F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9237AF8D559D281049535B3D /* Harmony */;
+			targetProxy = 9237ABA7A2E630CAC09A0F50 /* PBXContainerItemProxy */;
+		};
+		9237A744D27DAD0881FCF429 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9237AF8D559D281049535B3D /* Harmony */;
+			targetProxy = 9237A4182FEC16F195015D5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9237A168423C13CEDC2760CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9237A83F562B173E52405E34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9237AA54390AC9A8B4BB9B4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9237A1F14B83B793F0AA7568 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9237A0E93D5C444A2B8508B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56FC1BEDE54F77C99A841A28 /* Pods-HarmonyUITests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Harmony.app/Harmony";
+				INFOPLIST_FILE = HarmonyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rs.HarmonyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		9237A3913B355C4C6B3F19B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9237A5747BEEF04B9E912E8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9237A8FDA35EC60D1F74423C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E3D5120A30F6BEBE2D3C26B /* Pods-HarmonyTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Harmony.app/Harmony";
+				INFOPLIST_FILE = HarmonyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rs.HarmonyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		9237A9826FC20A266540E4D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE998CE0255CF709FA80D1B9 /* Pods-HarmonyUITests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Harmony.app/Harmony";
+				INFOPLIST_FILE = HarmonyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rs.HarmonyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		9237AD7DFFFA505A0C837DD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 595A8C3D5682810CCB3C04B0 /* Pods-HarmonyTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Harmony.app/Harmony";
+				INFOPLIST_FILE = HarmonyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rs.HarmonyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		9237AF6BF6A89CAFAF34B9CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Harmony/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rs.Harmony;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9237AFC0E6CA0EDB179438D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Harmony/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rs.Harmony;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9237A150C801094191F3EFDE /* Build configuration list for PBXNativeTarget "HarmonyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9237A0E93D5C444A2B8508B9 /* Debug */,
+				9237A9826FC20A266540E4D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9237A5DD80BD82D3F4BAED1F /* Build configuration list for PBXProject "Harmony" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9237A5747BEEF04B9E912E8C /* Debug */,
+				9237A3913B355C4C6B3F19B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9237ABD6A28ADAC550F6251E /* Build configuration list for PBXNativeTarget "Harmony" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9237AF6BF6A89CAFAF34B9CF /* Debug */,
+				9237AFC0E6CA0EDB179438D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9237AE65804FF52CD82894BF /* Build configuration list for PBXNativeTarget "HarmonyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9237A8FDA35EC60D1F74423C /* Debug */,
+				9237AD7DFFFA505A0C837DD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9237AF105378231EFB5AC3B5 /* Project object */;
+}
